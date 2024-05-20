@@ -11,7 +11,7 @@
 ## 目录
 
 - [环境配置](#环境配置)
-  - [开发前的配置要求](#开发前的配置要求)
+  - [电脑主机环境配置](#电脑主机环境配置)
   - [安装步骤](#安装步骤)
 - [文件目录说明](#文件目录说明)
 - [部署](#部署)
@@ -23,4 +23,9 @@
   分别是x86pc和开发板的环境配置
 
 #### 电脑主机环境配置
-  1）yolov8环境配置
+yolov8环境配置用mimiconda创建虚拟环境(可以参考这个b站视频非常详尽：【【手把手带你实战Ultralytics】02-环境安装与配置】 https://www.bilibili.com/video/BV1vH4y1a72o/?share_source=copy_web&vd_source=d41740ad2b14d1c71d883e3bad08d3fd）
+  pip安装pytorch（pytorch官网：https://pytorch.org/）
+  '''
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+  '''
+  打开yolov8目录pip进行环境配置
