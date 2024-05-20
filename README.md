@@ -14,9 +14,6 @@
   - [电脑主机环境配置](#电脑主机环境配置)
   - [香橙派5环境配置](#香橙派5环境配置)
 - [文件目录说明](#文件目录说明)
-- [部署](#部署)
-- [使用到的框架](#使用到的框架)
-- [版本控制](#版本控制)
 - [鸣谢](#鸣谢)
 
 ### 环境配置
@@ -73,6 +70,42 @@ conda install opencv
 
 里面runs里有训练完的模型，包含原始模型，加上数据增强和注意力机制的
 
+其中包含pt to onnx和detect的py脚本
 
+2）onnx to rknn
+
+是x86主机进行格式转换的文件，可以参考这篇博客：https://blog.csdn.net/m0_57315535/article/details/128250096
+
+里面包含已经转换好格式的rknn文件
+
+3）orangepi
+
+这个文件夹就是香橙派部署文件(test.py)，ui文件(untitled.py)，和最终整合文件（gui.py）拿来即用，开袋即食
+
+
+### 鸣谢
+
+
+- [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
+- [Img Shields](https://shields.io)
+- [Choose an Open Source License](https://choosealicense.com)
+- [GitHub Pages](https://pages.github.com)
+- [Animate.css](https://daneden.github.io/animate.css)
+- [xxxxxxxxxxxxxx](https://connoratherton.com/loaders)
+
+<!-- links -->
+[your-project-path]:shaojintian/Best_README_template
+[contributors-shield]: https://img.shields.io/github/contributors/shaojintian/Best_README_template.svg?style=flat-square
+[contributors-url]: https://github.com/shaojintian/Best_README_template/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/shaojintian/Best_README_template.svg?style=flat-square
+[forks-url]: https://github.com/shaojintian/Best_README_template/network/members
+[stars-shield]: https://img.shields.io/github/stars/shaojintian/Best_README_template.svg?style=flat-square
+[stars-url]: https://github.com/shaojintian/Best_README_template/stargazers
+[issues-shield]: https://img.shields.io/github/issues/shaojintian/Best_README_template.svg?style=flat-square
+[issues-url]: https://img.shields.io/github/issues/shaojintian/Best_README_template.svg
+[license-shield]: https://img.shields.io/github/license/shaojintian/Best_README_template.svg?style=flat-square
+[license-url]: https://github.com/shaojintian/Best_README_template/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/shaojintian
 
 
