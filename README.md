@@ -57,6 +57,7 @@ pip install -i https://pypi.tuna.tsinghua.edu.cn/simple PyQt5-tools
 由于conda的pyqt5会与pip安装的cv2冲突，可以把cv2从从pip移除，使用conda进行安装
 
 ```
+pip unstall opencv-python
 conda install opencv
 ```
 
