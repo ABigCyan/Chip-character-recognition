@@ -102,7 +102,7 @@ conda install opencv
 - [easyocr](https://github.com/JaidedAI/EasyOCR)
 - [yolov8](https://github.com/ultralytics/ultralytics)
 - [rknn-toolkit](https://github.com/rockchip-linux/rknn-toolkit)
-- [yolo环境搭建]([https://www.webpagefx.com/tools/emoji-cheat-sheet](https://www.bilibili.com/video/BV1vH4y1a72o/?share_source=copy_web&vd_source=d41740ad2b14d1c71d883e3bad08d3fd）))
+- [yolo环境搭建](https://www.bilibili.com/video/BV1vH4y1a72o/?share_source=copy_web&vd_source=d41740ad2b14d1c71d883e3bad08d3fd）)
 - [飞浆公开数据集](https://aistudio.baidu.com/datasetdetail/180690)
 
 
