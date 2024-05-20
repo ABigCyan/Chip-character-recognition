@@ -5,11 +5,12 @@
   <a href="https://github.com/ABigCyan/Chip-character-recognition">
     <img src="images/ui.png" alt="Logo" >
   </a>
+  
 <!-- PROJECT LOGO -->
   
 ## 目录
 
-- [环境部署](#环境部署)
+- [环境配置](#环境配置)
   - [开发前的配置要求](#开发前的配置要求)
   - [安装步骤](#安装步骤)
 - [文件目录说明](#文件目录说明)
@@ -18,4 +19,5 @@
 - [版本控制](#版本控制)
 - [鸣谢](#鸣谢)
 
+### 环境配置
 
