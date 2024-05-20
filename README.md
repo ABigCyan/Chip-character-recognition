@@ -65,24 +65,14 @@ conda install opencv
 
 
 ### 文件目录说明
-eg:
+1)yolov8-sea 
 
-```
-filetree 
-├── LICENSE.txt
-├── README.md
-├── /account/
-├── /bbs/
-├── /docs/
-│  ├── /rules/
-│  │  ├── backend.txt
-│  │  └── frontend.txt
-├── manage.py
-├── /oa/
-├── /static/
-├── /templates/
-├── useless.md
-└── /util/
+数据集来自飞浆公开数据集https://aistudio.baidu.com/datasetdetail/180690，非常感谢省去了很长的时间进行数据集标注，里面数据集质量非常高，我又加上了一下噪声来增强数据集，效果非常显著
 
-```
+过些日子会以网盘链接分享出来
+
+里面runs里有训练完的模型，包含原始模型，加上数据增强和注意力机制的
+
+
+
 
