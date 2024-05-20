@@ -25,20 +25,34 @@
 用mimiconda创建虚拟环境(可以参考这个b站视频非常详尽：【【手把手带你实战Ultralytics】02-环境安装与配置】 https://www.bilibili.com/video/BV1vH4y1a72o/?share_source=copy_web&vd_source=d41740ad2b14d1c71d883e3bad08d3fd）
 
   pip安装pytorch（pytorch官网：https://pytorch.org/）
+  
   ```
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 ```
+
   打开yolov8目录pip进行环境配置
+  
 ```
 pip install -e .
 ```
+
 2)rknn-toolkit配置
 
 电脑安装wsl虚拟机，获取https://github.com/rockchip-linux/rknn-toolkit
 
+3）easyocr环境搭建
+
+使用从github上获取https://github.com/JaidedAI/EasyOCR
+
+打开到目录使用pip进行安装
+
+```
+pip install -e .
+```
+
 #### 香橙派5环境配置
 
-1）conda环境配置和rknn-toolkit配置
+1）easyocr配置，conda环境配置和rknn-toolkit配置
 
 和pc端一致，pytorch和miniconda注意要进行arm64版本的安装
 
@@ -85,27 +99,11 @@ conda install opencv
 
 ### 鸣谢
 
+- [easyocr](https://github.com/JaidedAI/EasyOCR)
+- [yolov8](https://github.com/ultralytics/ultralytics)
+- [rknn-toolkit](https://github.com/rockchip-linux/rknn-toolkit)
+- [yolo环境搭建]([https://www.webpagefx.com/tools/emoji-cheat-sheet](https://www.bilibili.com/video/BV1vH4y1a72o/?share_source=copy_web&vd_source=d41740ad2b14d1c71d883e3bad08d3fd）))
+- [飞浆公开数据集](https://aistudio.baidu.com/datasetdetail/180690)
 
-- [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-- [Img Shields](https://shields.io)
-- [Choose an Open Source License](https://choosealicense.com)
-- [GitHub Pages](https://pages.github.com)
-- [Animate.css](https://daneden.github.io/animate.css)
-- [xxxxxxxxxxxxxx](https://connoratherton.com/loaders)
-
-<!-- links -->
-[your-project-path]:shaojintian/Best_README_template
-[contributors-shield]: https://img.shields.io/github/contributors/shaojintian/Best_README_template.svg?style=flat-square
-[contributors-url]: https://github.com/shaojintian/Best_README_template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/shaojintian/Best_README_template.svg?style=flat-square
-[forks-url]: https://github.com/shaojintian/Best_README_template/network/members
-[stars-shield]: https://img.shields.io/github/stars/shaojintian/Best_README_template.svg?style=flat-square
-[stars-url]: https://github.com/shaojintian/Best_README_template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/shaojintian/Best_README_template.svg?style=flat-square
-[issues-url]: https://img.shields.io/github/issues/shaojintian/Best_README_template.svg
-[license-shield]: https://img.shields.io/github/license/shaojintian/Best_README_template.svg?style=flat-square
-[license-url]: https://github.com/shaojintian/Best_README_template/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/shaojintian
 
 
