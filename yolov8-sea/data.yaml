@@ -1,0 +1,14 @@
+path: chip
+train: images/train
+val: images/val
+test:
+
+nc: 1
+names: ['chip']
+
+#roboflow:
+#  workspace: roboflow-100
+#  project: printed-circuit-board
+#  version: 4
+#  license: CC BY 4.0
+#  url: https://universe.roboflow.com/roboflow-100/printed-circuit-board/dataset/4
