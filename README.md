@@ -62,3 +62,27 @@ conda install opencv
 ```
 
 如果下不动可以考虑换源（https://blog.csdn.net/innovationy/article/details/121510666）
+
+
+### 文件目录说明
+eg:
+
+```
+filetree 
+├── LICENSE.txt
+├── README.md
+├── /account/
+├── /bbs/
+├── /docs/
+│  ├── /rules/
+│  │  ├── backend.txt
+│  │  └── frontend.txt
+├── manage.py
+├── /oa/
+├── /static/
+├── /templates/
+├── useless.md
+└── /util/
+
+```
+
