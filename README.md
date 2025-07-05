@@ -97,11 +97,6 @@ conda install opencv
 
 这个文件夹就是香橙派部署文件(test.py)，ui文件(untitled.py)，和最终整合文件（gui.py）拿来即用，开袋即食
 
-### 作者
-
-b站:__Cyan__  UID87843117; qq:2257560387    
-
-有问题可以私信我
 
 ### 鸣谢
 
